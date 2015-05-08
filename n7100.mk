@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
 
 # Product specific Packages
 PRODUCT_PACKAGES += \
+    DeviceSettings \
     libsecril-client \
     libsecril-client-sap \
     SamsungServiceMode
@@ -80,7 +81,8 @@ PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
 PRODUCT_PACKAGES += \
-    com.android.nfc_extras
+    com.android.nfc_extras \
+    Stk
 
 $(call inherit-product, vendor/pa/configs/nfc_enhanced.mk)
 
