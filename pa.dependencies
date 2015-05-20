@@ -19,9 +19,9 @@
     },
     {
         "remote": "github",
-        "repository": "NamelessRom/android_hardware_samsung",
+        "repository": "AOSPA-L/android_hardware_samsung",
         "target_path": "hardware/samsung",
-        "revision": "n-2.1"
+        "revision": "lollipop-mr1"
     },
     {
         "remote": "github",
