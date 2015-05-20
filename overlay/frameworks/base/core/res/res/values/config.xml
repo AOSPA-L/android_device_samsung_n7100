@@ -114,14 +114,14 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+         config to 7.
+    <integer name="config_deviceHardwareWakeKeys">65</integer> -->
 
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
 
-    <!-- Boolean to enable Stylus gestures -->
-    <bool name="config_stylusGestures">true</bool>
+    <!-- Boolean to enable Stylus gestures
+    <bool name="config_stylusGestures">true</bool> -->
 
     <!-- Doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
@@ -129,11 +129,11 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
-    <!-- Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">4</integer>
+    <!-- Maximum number of supported users
+    <integer name="config_multiuserMaximumUsers">4</integer> -->
 
-    <!-- Whether UI for multi user should be shown -->
-    <bool name="config_enableMultiUserUI">true</bool>
+    <!-- Whether UI for multi user should be shown
+    <bool name="config_enableMultiUserUI">true</bool> -->
 
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
@@ -146,8 +146,8 @@
            audio output to the WiFi display encoder in the media server.
          * The remote submix module "audio.r_submix.default" must be installed on the device.
          * The device must be provisioned with HDCP keys (for protected content).
-    -->
-    <bool name="config_enableWifiDisplay">true</bool>
+
+    <bool name="config_enableWifiDisplay">true</bool> -->
 
     <!-- Specifies whether the dreams feature should be supported.
          When true, the system will allow the user to configure dreams (screensavers)
